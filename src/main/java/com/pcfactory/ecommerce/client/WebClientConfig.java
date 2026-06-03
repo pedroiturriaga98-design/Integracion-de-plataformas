@@ -11,7 +11,7 @@ public class WebClientConfig {
     public WebClient webClient() {
 
         return WebClient.builder()
-                .baseUrl("https://www.themealdb.com/api/json/v1/1")
+                .baseUrl("https://www.themealdb.com/api/json/v1/1/")
                 .build();
     }
 }
